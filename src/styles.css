@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register-form input, .register-form button {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.attendee-list {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.attendee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.attendee-list li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.attendee-list strong {
+    color: #333;
+}
+
+.event-details {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.event-details h2 {
+    margin-bottom: 1rem;
+}
+
+.event-details p {
+    margin: 0.5rem 0;
+}
+
+.event-details button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-details button:hover {
+    background-color: #0056b3;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+@media (max-width: 768px) {
+    .header nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
